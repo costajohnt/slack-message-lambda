@@ -1,7 +1,5 @@
-# honeybadger-status-updater
- The honeybadger-status-updater is a lambda function that helps keep track of who is on honeybadger duty.  This lambda is triggered by a schedule event.  It runs once per week on Sundays.  The function reads the HB duty schedule and finds the last person on duty, and the new person on duty.  The function uses the person's name to find their slack id.  The last person on duty has their slack status_text and status_emoji reset.  The new person on duty has their status_text set to "on honeybadger duty!" and their status_emoji set to ":honeybadger:".d
- 
-# Setup
+# slack-message-lambda
+ The slack-message-lambda is a lambda function that helps keep track of who is on honeybadger duty.  This lambda is triggered by a schedule event.  It runs once per week on Mondays.  The function reads the HB duty schedule and outputs a message detailing who is on duty that week to the #tech-team channel
 
 `npm install`
 
