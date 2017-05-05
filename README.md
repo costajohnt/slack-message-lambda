@@ -9,15 +9,6 @@
 
 `SLS_DEBUG='*' serverless webpack invoke --function test` to test with serverless locally. You may need to set SLS_DEBUG: `export SLS_DEBUG='*'`
 
-## Staging
+## Prod
 
-1. `serverless deploy --stage staging --verbose`
-1. Configure lambda: add any environment variables and values, adjust the timeout if needed (up to 5 minutes), enable a trigger for your function, add a test event (json).
-
-## Production
-
-1. `serverless deploy --stage production --verbose`
-1. Configure lambda: add any environment variables and values, adjust the timeout if needed (up to 5 minutes), enable a trigger for your function, add a test event (json).
-
-## Configure
-In the web console, make sure you add your environment variables in the input fields below the code.  Set up a trigger for the lambda.  This example uses a schedule event, configured to run once per week on sunday when the schedule changes: `cron(0 0 12 ? * MON *) `
+`serverless deploy`
