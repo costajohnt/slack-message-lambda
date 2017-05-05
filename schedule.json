@@ -45,43 +45,48 @@
     "endDate": "6-24-17"
   },
   {
-    "name": "Joe",
+    "name": "Kyle",
     "startDate": "6-25-17",
     "endDate": "7-1-17"
   },
   {
-    "name": "John",
+    "name": "Joe",
     "startDate": "7-2-17",
     "endDate": "7-8-17"
   },
   {
-    "name": "Dave",
+    "name": "John",
     "startDate": "7-9-17",
     "endDate": "7-15-17"
   },
   {
-    "name": "Debbie",
+    "name": "Dave",
     "startDate": "7-16-17",
     "endDate": "7-22-17"
   },
   {
-    "name": "Carol",
+    "name": "Debbie",
     "startDate": "7-23-17",
     "endDate": "7-29-17"
   },
   {
-    "name": "Ilya",
+    "name": "Carol",
     "startDate": "7-30-17",
     "endDate": "8-5-17"
   },
   {
-    "name": "Jeff",
+    "name": "Ilya",
     "startDate": "8-6-17",
     "endDate": "8-12-17"
   },
   {
-    "name": "Ed",
+    "name": "Jeff",
     "startDate": "8-13-17",
     "endDate": "8-19-17"
+  },
+  {
+    "name": "Ed",
+    "startDate": "8-20-17",
+    "endDate": "8-26-17"
   }
 ]
