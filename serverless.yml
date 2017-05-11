@@ -48,6 +48,8 @@ functions:
   entry:
     handler: handler.entry
     description: Description of the function
+    events:
+      - schedule: cron(20 7 ? * MON *)
   test:
     handler: handler.test
 
