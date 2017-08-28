@@ -88,5 +88,95 @@
     "name": "Ed",
     "startDate": "8-20-17",
     "endDate": "8-26-17"
+  },
+  {
+    "name": "Ryan",
+    "startDate": "8-27-17",
+    "endDate": "9-2-17"
+  },
+  {
+    "name": "Kyle",
+    "startDate": "9-3-17",
+    "endDate": "9-9-17"
+  },
+  {
+    "name": "Joe",
+    "startDate": "9-10-17",
+    "endDate": "9-16-17"
+  },
+  {
+    "name": "John",
+    "startDate": "9-17-17",
+    "endDate": "9-23-17"
+  },
+  {
+    "name": "Dave",
+    "startDate": "9-24-17",
+    "endDate": "9-30-17"
+  },
+  {
+    "name": "Debbie",
+    "startDate": "10-1-17",
+    "endDate": "10-7-17"
+  },
+  {
+    "name": "Carol",
+    "startDate": "10-8-17",
+    "endDate": "10-14-17"
+  },
+  {
+    "name": "Ilya",
+    "startDate": "10-15-17",
+    "endDate": "10-21-17"
+  },
+  {
+    "name": "Jeff",
+    "startDate": "10-22-17",
+    "endDate": "10-28-17"
+  },
+  {
+    "name": "Ed",
+    "startDate": "10-29-17",
+    "endDate": "11-4-17"
+  },
+  {
+    "name": "Ryan",
+    "startDate": "11-5-17",
+    "endDate": "11-11-17"
+  },
+  {
+    "name": "Kyle",
+    "startDate": "11-12-17",
+    "endDate": "11-18-17"
+  },
+  {
+    "name": "Joe",
+    "startDate": "11-19-17",
+    "endDate": "11-25-17"
+  },
+  {
+    "name": "John",
+    "startDate": "11-26-17",
+    "endDate": "12-2-17"
+  },
+  {
+    "name": "Dave",
+    "startDate": "12-3-17",
+    "endDate": "12-9-17"
+  },
+  {
+    "name": "Debbie",
+    "startDate": "12-10-17",
+    "endDate": "12-16-17"
+  },
+  {
+    "name": "Carol",
+    "startDate": "12-17-17",
+    "endDate": "12-23-17"
+  },
+  {
+    "name": "Ilya",
+    "startDate": "12-24-17",
+    "endDate": "12-30-17"
   }
 ]
