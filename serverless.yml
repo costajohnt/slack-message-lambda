@@ -11,12 +11,18 @@
 #
 # Happy Coding!
 
-service: honeybadger-slack-status # NOTE: update this with your service name
+service: slack-message-lambda-test-again
 
 provider:
   name: aws
   runtime: nodejs8.10
   stage: dev
+  deploymentBucket: execonline-serverless-deploy-archive
+  environment:
+    SLACK_API_TOKEN: "{self:custom.secrets.SLACK_API_TOKEN}"
+custom:
+  stage: ${opt:stage, self:provider.stage}
+  secrets: ${file(secrets.yml):${self:custom.stage}}
 
 # you can overwrite defaults here
 #  stage: dev
@@ -38,11 +44,11 @@ provider:
 #            - "Ref" : "ServerlessDeploymentBucket"
 
 # you can add packaging information here
-#package:
-#  include:
-#    - include-me.js
-#  exclude:
-#    - exclude-me.js
+package:
+ # include:
+ #   - include-me.js
+ exclude:
+   - secrets.yml
 #  artifact: my-service-code.zip
 
 functions:
