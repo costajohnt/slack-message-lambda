@@ -1,5 +1,5 @@
 # slack-message-lambda
- The slack-message-lambda is a lambda function that helps keep track of who is on honeybadger duty.  This lambda is triggered by a schedule event.  It runs once per week on Mondays.  The function reads the HB duty schedule and outputs a message detailing who is on duty that week to the #tech-team channel
+ The Slack Message Lambda is a lambda function that helps keep track of who is on honeybadger duty.  This lambda is triggered by a schedule event.  It runs once per week on Mondays.  The function reads the HB duty schedule and outputs a message detailing who is on duty that week to the #tech-team channel
 
 `npm install`
 
