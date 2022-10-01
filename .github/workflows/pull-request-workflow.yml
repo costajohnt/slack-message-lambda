@@ -1,0 +1,6 @@
+name: Pull Request Workflow
+on:
+  pull_request:
+    types: [unlabeled]
+env:
+  GITHUB_EVENT_PATH: /github/workflow/event.json
